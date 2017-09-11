@@ -1,13 +1,11 @@
 public class Triangulo extends Figura{
     private float base;
-    private float altura;
     
     /**
      * Constructor 
      */
-    public Triangulo(float B, float H){
+    public Triangulo(float B){
         base = B;
-        altura = H;
     }
     
     /** 
@@ -15,7 +13,7 @@ public class Triangulo extends Figura{
      */
     @Override //Avisa al compilador si se escribe mal el método
     public void calcularArea(){
-        area= (base * altura) / 2;
+        area = .433f * (base * base);
     }
     
     /** 
@@ -23,7 +21,7 @@ public class Triangulo extends Figura{
      */
     @Override
     public void calcularPerimetro(){
-        perimetro = (2 * altura) + base;
+        perimetro = 3 * base;
     }
     
     

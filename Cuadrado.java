@@ -13,7 +13,7 @@ public class Cuadrado extends Figura{
      */
     @Override //Avisa al compilador si se escribe mal el método
     public void calcularArea(){
-        area= lado * lado;
+        area = lado * lado;
     }
     
     /** 
@@ -21,6 +21,6 @@ public class Cuadrado extends Figura{
      */
     @Override 
     public void calcularPerimetro(){
-        perimetro = 4*lado;
+        perimetro = 4 * lado;
     }
 }
